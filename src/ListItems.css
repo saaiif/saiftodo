@@ -1,21 +1,23 @@
 .list{
-   color: #fff;
-   width: 300px;
+   color: rgb(80, 25, 25);
+   width: 330px;
    margin: 20px auto;
    height: 50px;
-   background-color: #bf07ac;
-   border-radius: 5px;
+   background-color: #cfca9b;
+   border-radius: 3rem;
 }
 .list p{
-   padding: 10px;
+   padding: 12px;
    position: relative;
    transition: ease-in-out;
 }
 .list p input{
    background-color: transparent;
    border: 0;
-   color: #fff;
-   font-size: 18px;
+   color: rgb(20, 20, 19);
+   font-size: 20px;
+   font-weight: 600;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .list p input:focus{
    outline: none;
