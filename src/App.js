@@ -58,6 +58,7 @@ class App extends React.Component {
     items.map(item=>{      
       if(item.key===key){
         console.log(item.key +"    "+key)
+        console.log("Please enter todo list")
         item.text= text;
       }
     })
@@ -70,10 +71,12 @@ class App extends React.Component {
  render(){
   return (
     <div className="App">
+      
       <header>
         <form id="to-do-form" onSubmit={this.addItem}>
+          
           <input type="text" placeholder="Enter List Items" value= {this.state.currentItem.text} onChange={this.handleInput}></input>
-          <button type="submit">ADD</button>
+          <button type="submit" >ADD</button>
         </form>
         <p>{this.state.items.text}</p>
         
